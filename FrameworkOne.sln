@@ -3,8 +3,65 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkOne.Repository", "FrameworkOne.Repository\FrameworkOne.Repository.csproj", "{0D93F7A0-3794-4EDC-B811-FC04C698C482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkOne.Domain", "FrameworkOne.Domain\FrameworkOne.Domain.csproj", "{8DC63C89-1096-4EDD-A721-167431F76EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkOne.Application", "FrameworkOne.Application\FrameworkOne.Application.csproj", "{6DFF918B-1715-48F9-B20A-F4EC6E7BEBC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkOne.Model", "FrameworkOne.Model\FrameworkOne.Model.csproj", "{031FA339-23D3-4282-BB55-D380174D32DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkOne.Web", "FrameworkOne.Web\FrameworkOne.Web.csproj", "{93D569B2-A0EF-4D99-9CDD-94F34A18DA2E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D93F7A0-3794-4EDC-B811-FC04C698C482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D93F7A0-3794-4EDC-B811-FC04C698C482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D93F7A0-3794-4EDC-B811-FC04C698C482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D93F7A0-3794-4EDC-B811-FC04C698C482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC63C89-1096-4EDD-A721-167431F76EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC63C89-1096-4EDD-A721-167431F76EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC63C89-1096-4EDD-A721-167431F76EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC63C89-1096-4EDD-A721-167431F76EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFF918B-1715-48F9-B20A-F4EC6E7BEBC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFF918B-1715-48F9-B20A-F4EC6E7BEBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFF918B-1715-48F9-B20A-F4EC6E7BEBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFF918B-1715-48F9-B20A-F4EC6E7BEBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031FA339-23D3-4282-BB55-D380174D32DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031FA339-23D3-4282-BB55-D380174D32DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031FA339-23D3-4282-BB55-D380174D32DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031FA339-23D3-4282-BB55-D380174D32DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D569B2-A0EF-4D99-9CDD-94F34A18DA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D569B2-A0EF-4D99-9CDD-94F34A18DA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D569B2-A0EF-4D99-9CDD-94F34A18DA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D569B2-A0EF-4D99-9CDD-94F34A18DA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://architectures.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FrameworkOne.Repository\\FrameworkOne.Repository.csproj
+		SccProjectName1 = FrameworkOne.Repository
+		SccLocalPath1 = FrameworkOne.Repository
+		SccProjectUniqueName2 = FrameworkOne.Domain\\FrameworkOne.Domain.csproj
+		SccProjectName2 = FrameworkOne.Domain
+		SccLocalPath2 = FrameworkOne.Domain
+		SccProjectUniqueName3 = FrameworkOne.Application\\FrameworkOne.Application.csproj
+		SccProjectName3 = FrameworkOne.Application
+		SccLocalPath3 = FrameworkOne.Application
+		SccProjectUniqueName4 = FrameworkOne.Model\\FrameworkOne.Model.csproj
+		SccProjectName4 = FrameworkOne.Model
+		SccLocalPath4 = FrameworkOne.Model
+		SccProjectUniqueName5 = FrameworkOne.Web\\FrameworkOne.Web.csproj
+		SccProjectName5 = FrameworkOne.Web
+		SccLocalPath5 = FrameworkOne.Web
 	EndGlobalSection
 EndGlobal
