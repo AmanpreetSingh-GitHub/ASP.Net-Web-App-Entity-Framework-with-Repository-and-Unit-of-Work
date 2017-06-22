@@ -3,3 +3,7 @@
 ################################################################################
 
 /FrameworkOne.Application/obj/Debug
+/.vs/config
+/FrameworkOne.Repository/obj/Debug
+/FrameworkOne.Model/obj/Debug
+/FrameworkOne.Domain/obj/Debug
