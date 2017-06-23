@@ -7,3 +7,11 @@
 /FrameworkOne.Repository/obj/Debug
 /FrameworkOne.Model/obj/Debug
 /FrameworkOne.Domain/obj/Debug
+/FrameworkOne.Repository/bin/Debug
+/FrameworkOne.Model/bin/Debug
+/FrameworkOne.Domain/bin/Debug
+/FrameworkOne.Application/bin/Debug
+/.vs/FrameworkOne/v15
+/FrameworkOne.Web/obj/Debug
+/FrameworkOne.Web/bin
+/packages
