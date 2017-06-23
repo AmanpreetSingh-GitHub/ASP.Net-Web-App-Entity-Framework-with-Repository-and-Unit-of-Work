@@ -69,6 +69,7 @@ This article covers following things –
   	<img src="Images/15.png" width="80%">
 
 - Create three tables Student, Assignment, StudentAssignment. Below is the Database diagram and CREATE scripts for three tables
+
   	<img src="Images/16.png" width="80%">
 
 	>     /****** Object:  Table [dbo].[Student] ******/
@@ -535,6 +536,7 @@ This article covers following things –
 
 ### Configuration tasks ###
 - Copy FrameworkOneContext connectionstring from FrameworkOne.Domain App.config to FrameworkOne.Web web.config
+
 	<img src="Images/37.png" width="80%">
 	<img src="Images/38.png" width="80%">
 
