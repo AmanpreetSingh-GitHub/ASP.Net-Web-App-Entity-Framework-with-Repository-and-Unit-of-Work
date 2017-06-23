@@ -17,58 +17,59 @@ This article covers following things –
 ### Basic Solution and Project creation ###
 
 - Create a new .Net Framework 4.5 Blank Solution (FrameworkOne)
-	![](Images/1.png)
+	<img src="Images/1.png" width="80%">
 
 - Add a .Net Framework 4.5 Class Library project (FrameworkOne.Repository) in the solution
-	![](Images/2.png)
+	<img src="Images/2.png" width="80%">
 
 - Add a .Net Framework 4.5 Class Library project (FrameworkOne.Domain) in the solution
- 	![](Images/3.png)
+ 	<img src="Images/3.png" width="80%">
 
 - Add a .Net Framework 4.5 Class Library project (FrameworkOne.Application) in the solution
- 	![](Images/4.png)
+ 	<img src="Images/4.png" width="80%">
 
 - Add a .Net Framework 4.5 Class Library project (FrameworkOne.Model) in the solution
-  	![](Images/5.png)
+  	<img src="Images/5.png" width="80%">
 
 - Add a .Net Framework 4.5 ASP.NET Web Application project (FrameworkOne.Web) in the solution
-  	![](Images/6.png)
+  	<img src="Images/6.png" width="80%">
 
 - Select MVC template
-  	![](Images/7.png)
+
+  	<img src="Images/7.png" width="80%">
 
 ### Adding NuGet Packages ###
 
 - Using NuGet Package Manager, add Entity Framework in FrameworkOne.Domain project
-  	![](Images/8.png)
+  	<img src="Images/8.png" width="80%">
 
 - Using NuGet Package Manager, add Entity Framework in FrameworkOne.Repository project
-  	![](Images/9.png)
+  	<img src="Images/9.png" width="80%">
 
 - Using NuGet Package Manager, add Unity.Mvc in FrameworkOne.Web project. This is added for Dependency Injection
-  	![](Images/10.png)
+  	<img src="Images/10.png" width="80%">
 
 ### Adding Project References ###
 
 - Add Framework.Domain project reference in FrameworkOne.Repository project
-  	![](Images/11.png)
+  	<img src="Images/11.png" width="80%">
 
 - Add FrameworkOne.Domain, FrameworkOne.Model, Framework.Repository project reference in FrameworkOne.Application project
-  	![](Images/12.png)
+  	<img src="Images/12.png" width="80%">
 
 - Add FrameworkOne.Application, FrameworkOne.Domain, FrameworkOne.Model, Framework.Repository project reference in FrameworkOne.Web project
-  	![](Images/13.png)
+  	<img src="Images/13.png" width="80%">
 
 ### Setting up the Database ###
 
 - Connect to (localdb)\MSSQLLocalDb server from SQL Server 2014 Management Studio
-  	![](Images/14.png)
+  	<img src="Images/14.png" width="50%">
 
 - Create a new Database (FrameworkOne) with default settings
-  	![](Images/15.png)
+  	<img src="Images/15.png" width="80%">
 
 - Create three tables Student, Assignment, StudentAssignment. Below is the Database diagram and CREATE scripts for three tables
-  	![](Images/16.png)
+  	<img src="Images/16.png" width="80%">
 
 	>     /****** Object:  Table [dbo].[Student] ******/
 	>     USE [FrameworkOne]
@@ -166,26 +167,27 @@ This article covers following things –
 ### Adding Entity Framework ###
 
 - In FrameworkOne.Domain project add ADO.Net Entity Data Model (FrameworkOneContext)
-	![](Images/20.png)
+	<img src="Images/20.png" width="80%">
 
 - Select Code First from database option
-	![](Images/21.png)
+
+	<img src="Images/21.png" width="50%">
 
 - From Choose Your Data Connection screen, create connection string to FrameworkOne database and save as FrameworkOneContext
 
-	![](Images/22.png)
+	<img src="Images/22.png" width="50%">
 
 - From Choose Your Database Objects and Settings, select Student, Assignment, StudentAssignment tables
-	![](Images/23.png)
+	<img src="Images/23.png" width="50%">
 
 - FrameworkOne.Domain project looks like this
 
-	![](Images/24.png)
+	<img src="Images/24.png" width="30%">
 
 ### Creating Generic Repository and Unit of Work ###
 
 - In FrameworkOne.Repository project, first add folder Interface. Then add a new interface file IGenericRepository.cs
-	![](Images/25.png)
+	<img src="Images/25.png" width="80%">
 
 - IGenericRepository interface will look like this
 	>     namespace FrameworkOne.Repository.Interface
@@ -211,7 +213,7 @@ This article covers following things –
 	>     }
 
 - In FrameworkOne.Repository project, add a class file GenericRepository
-	![](Images/26.png)
+	<img src="Images/26.png" width="80%">
 
 - Implement IGenericRepository interface in GenericRepository class
 	>     namespace FrameworkOne.Repository
@@ -242,7 +244,7 @@ This article covers following things –
 	>     }
 
 - In FrameworkOne.Repository project, add a new interface file IUnitOfWork
-	![](Images/27.png)
+	<img src="Images/27.png" width="80%">
 
 - Add DbContext property and Save method to IUnitOfWork interface
 	>     namespace FrameworkOne.Repository.Interface
@@ -256,7 +258,7 @@ This article covers following things –
 	>     }
 
 - In FrameworkOne.Repository project, add a class file UnitOfWork
-	![](Images/28.png)
+	<img src="Images/28.png" width="80%">
 
 - Implement IUnitOfWork interface in UnitOfWork class. UnitOfWork looks like this
 	>     namespace FrameworkOne.Repository
@@ -340,12 +342,13 @@ This article covers following things –
 	>     }
 
 - Rebuild the solution
-	![](Images/29.png)
+
+	<img src="Images/29.png" width="80%">
 
 ### Creating Model classes ###
 
 - In FrameworkOne.Model project, add StudentModel class
-	![](Images/30.png)
+	<img src="Images/30.png" width="80%">
 
 - StudentModel class have two properties - StudentId and Name
 	>     namespace FrameworkOne.Model
@@ -359,7 +362,7 @@ This article covers following things –
 	>     }
 
 - In FrameworkOne.Model project, add AssignmentModel class
-	![](Images/31.png)
+	<img src="Images/31.png" width="80%">
 
 - AssignmentModel class have three properties – AssignmentId, Name, TotallMarks
 	>     namespace FrameworkOne.Model
@@ -378,10 +381,10 @@ This article covers following things –
 
 - In FrameworkOne.Application project, add Interface folder
 
-	![](Images/32.png)
+	<img src="Images/32.png" width="30%">
 
 - In FrameworkOne.Application, add IStudentLogic interface
-	![](Images/33.png)
+	<img src="Images/33.png" width="80%">
 
 - IStudentLogic interface have three methods – 
 	- GetData method – for fetching data from Repository in Domain classes. It loads the data in Model classes and pass to the Web layer
@@ -400,7 +403,7 @@ This article covers following things –
 	>     }
 
 - In FrameworkOne.Application, add StudentLogic class
-	![](Images/34.png)
+	<img src="Images/34.png" width="80%">
 
 - Implement IStudentLogic interface in StudentLogic class
 	>     namespace FrameworkOne.Application
@@ -479,7 +482,7 @@ This article covers following things –
 ### Creating Asp.net MVC Controller classes ###
 
 - Open FrameworkOne.Web project HomeController class
-	![](Images/35.png)
+	<img src="Images/35.png" width="80%">
 
 - HomeController class is updated to test the overall flow –
 	- constructor – for setting up object references (using DI)
@@ -527,12 +530,13 @@ This article covers following things –
 	>     }
 
 - Rebuild the whole solution
-	![](Images/36.png)
+
+	<img src="Images/36.png" width="80%">
 
 ### Configuration tasks ###
 - Copy FrameworkOneContext connectionstring from FrameworkOne.Domain App.config to FrameworkOne.Web web.config
-	![](Images/37.png)
-	![](Images/38.png)
+	<img src="Images/37.png" width="80%">
+	<img src="Images/38.png" width="80%">
 
 - Register UnitOfWork, GenericRepository and StudentLogic in FrameworkOne.Web UnityConfig class
 	>     public static void RegisterTypes(IUnityContainer container)
