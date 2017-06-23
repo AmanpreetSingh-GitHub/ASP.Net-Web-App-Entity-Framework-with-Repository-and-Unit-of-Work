@@ -172,12 +172,14 @@ This article covers following things –
 	![](Images/21.png)
 
 - From Choose Your Data Connection screen, create connection string to FrameworkOne database and save as FrameworkOneContext
+
 	![](Images/22.png)
 
 - From Choose Your Database Objects and Settings, select Student, Assignment, StudentAssignment tables
 	![](Images/23.png)
 
 - FrameworkOne.Domain project looks like this
+
 	![](Images/24.png)
 
 ### Creating Generic Repository and Unit of Work ###
@@ -231,7 +233,7 @@ This article covers following things –
 	>                 throw new NotImplementedException();
 	>             }
 	>     
-	>     public void Delete(T entity)
+	>             public void Delete(T entity)
 	>             {
 	>                 throw new NotImplementedException();
 	>             }
@@ -375,6 +377,7 @@ This article covers following things –
 ### Creating Application Logic classes ###
 
 - In FrameworkOne.Application project, add Interface folder
+
 	![](Images/32.png)
 
 - In FrameworkOne.Application, add IStudentLogic interface
